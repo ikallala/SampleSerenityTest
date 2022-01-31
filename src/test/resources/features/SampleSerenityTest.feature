@@ -1,3 +1,4 @@
+@singlebrowser
 Feature: Sample tests with serenity
 
   Background: I search for serenity bdd
