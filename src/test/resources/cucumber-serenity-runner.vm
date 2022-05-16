@@ -14,8 +14,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 features = {"$featureFile"},
-glue = #stringArray($glue),
-tags = "not @pending")
+glue = #stringArray($glue))
 public class $className {
 	@BeforeClass
 	public static void startUp() {

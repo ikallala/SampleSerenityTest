@@ -16,11 +16,12 @@ public class SerenityWebsiteStepDefinitions {
     public void selectCourse(String course) {
         Serenity.setSessionVariable("course").to(course);
         serenityWebsiteSteps.selectCourse(course);
+        System.out.println("course");
     }
 
     @Then("^Serenity website is opened$")
     public void checkWebsite() {
-        assertThat(Serenity.getWebdriverManager().getCurrentDriver().getTitle().equals("Introduction :: The Serenity BDD Book")).as("Serenity website should be opened but was not").isTrue();
+        assertThat(Serenity.getWebdriverManager().getCurrentDriver().getTitle().equals("Wrong title")).as("Serenity website should be opened but was not").isTrue();
     }
 
     @Then("The selected course is displayed")
