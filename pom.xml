@@ -11,9 +11,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <serenity.version>3.2.5</serenity.version>
-        <serenity.cucumber.version>3.2.5</serenity.cucumber.version>
-        <serenity.maven.version>3.2.5</serenity.maven.version>
+        <serenity.version>3.6.12</serenity.version>
+        <serenity.cucumber.version>3.6.12</serenity.cucumber.version>
+        <serenity.maven.version>3.6.12</serenity.maven.version>
     </properties>
     <dependencies>
         <dependency>
